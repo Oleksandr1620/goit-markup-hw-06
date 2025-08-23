@@ -797,6 +797,18 @@ button {
     background-color: #f4f4fd;
     /* height: 780px; */
     padding: 120px 156px;
+
+    .team-list-item {
+      flex: 1 1 calc((100% - 72px) / 4);
+      max-width: calc((100% - 72px) / 4);
+    }
+
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px; /* горизонтальні відступи */
+      row-gap: 64px; /* вертикальні */
+    }
   }
 }
 
